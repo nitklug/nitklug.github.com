@@ -1,0 +1,8 @@
+h1. introduction
+
+these files power the nitk lug website ( http://lug.nitk.ac.in and http://nitklug.github.com )
+if you wish to add to or maintain it, ask to become a collaborator at the group's mailing list
+( http://groups.google.co.uk/group/nitklug ) or irc channel ( irc://irc.freenode.net/lug-nitk )
+
+notes: some of the links may be broken on the github mirror, those are only relevent to the
+       intranet site.
