@@ -1,0 +1,52 @@
+body {
+    margin:5% auto;
+    text-align: center;
+    font-family: 'trebuchet ms', georgia,serif;
+}
+
+h1, h2, h3 {
+    margin: 1px auto;
+    font-family: georgia, monaco, monospace;
+    font-weight: normal
+}
+
+a { color: #2A76A8; text-decoration: none }
+
+.h-menu { padding:0 }
+
+.h-menu li {
+    list-style:none;
+    display: inline;
+}
+
+.h-menu li a {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    margin: 5px 3px;
+    padding: 3px 6px;
+}
+.h-menu li a:hover {
+    background: #2A76A8;
+    color: white;
+}
+
+.sect {
+    margin: 30px;
+    color: #444;
+}
+
+.fortune {
+    font-family: 'trebuchet ms', georgia;
+    color: #666;
+}
+
+.notice {
+    margin:auto;
+    padding: 6px;
+    color: white;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    width:600px;
+    background: #7DB24C;
+}
