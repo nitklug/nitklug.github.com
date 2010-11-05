@@ -1,0 +1,26 @@
+---
+title: bash scripting
+layout: default
+---
+
+h1. bash scripting
+
+(h-menu)* "slides":/slides/html/bash.html
+* "links":#links
+* "notes":#notes
+
+h2. links
+
+<(#links)* "the bash guide at wooledge.":http://mywiki.wooledge.org/BashGuide --awesome guide for beginners and old timers alike, gives some behind the scenes gyan
+* "some notes made by malta-lug":http://linux.org.mt/article/terminal -- a hands-on guide for people who have never used the command line before.
+* "advanced bash -- the linux documentation project":http://tldp.org/LDP/abs/html/
+
+h2. notes
+
+<(#notes)* the talk might have gone over the head of newcomers to shell scripting, sorry about that. maybe you can still draw from the talk if you start learning bash now.
+* the errors in the slides are now fixed
+* the talk didn't teach you how to make a bash script in the first place using hashbangs
+  you can find a simple step-by-step howto on the same at "ehow":http://www.ehow.com/how_5070774_write-bash-script-unix.html
+* some more content i intended to add to the slides have been added
+* i'd love to hear from you--"connect2shashi@gmail.com":mailto:connect2shashi@gmail.com
+

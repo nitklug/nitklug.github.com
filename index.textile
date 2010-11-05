@@ -1,0 +1,14 @@
+---
+layout: default
+title: linux user group&mdash;nitk surathkal
+logo: true
+fortune: true
+---
+
+h1. linux user group
+
+h2. nitk surathkal
+
+(h-menu){% include main_menu.textile %}
+
+p(notice).  Slides and notes from the bash talk can be found "here":/talks/bash.html

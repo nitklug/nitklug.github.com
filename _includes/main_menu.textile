@@ -1,0 +1,7 @@
+* "get linux":/distros
+* "wiki":/wiki
+* "arch packages":/arch/pkg
+* "news":news.html
+* "discuss":http://groups.google.co.uk/group/nitklug
+* "irc":irc://irc.freenode.net/lug-nitk
+* "logs":/logs
