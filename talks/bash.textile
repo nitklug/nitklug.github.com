@@ -22,5 +22,6 @@ h2. notes
 * the talk didn't teach you how to make a bash script in the first place using hashbangs
   you can find a simple step-by-step howto on the same at "ehow":http://www.ehow.com/how_5070774_write-bash-script-unix.html
 * some more content i intended to add to the slides have been added
-* i'd love to hear from you--"connect2shashi@gmail.com":mailto:connect2shashi@gmail.com
+* i'd love to "hear from you":shashi
 
+{% include links.textile %}

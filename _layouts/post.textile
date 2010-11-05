@@ -10,7 +10,7 @@ h1. {{page.title}}
     {% if page.location %}
         from <span class="location">{{ page.location }}</span>{% endif %}
     {% if page.author %}
-        by <span class="author">{{ page.author }}</span>{% endif %}
+        by <span class="author">"{{ page.author }}":{{ page.author }}</span>{% endif %}
     </p>
 
     {% include post_menu.textile %}
