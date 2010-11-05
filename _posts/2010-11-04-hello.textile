@@ -1,0 +1,13 @@
+---
+title: Hello, World!
+layout: post
+author: shashi
+---
+
+Hi all, this will be our new blog! It is powered by "Jekyll":jekyll. If you want to contribute a post write it in "textile markup":textile, just send it to the mailing list or someone who can post. Fork "this site on github":github to change the look, feel or anything else.
+
+Thank you. :-)
+
+[jekyll]http://github.com/mojombo/jekyll
+[textile]http://redcloth.org/textile
+[github]http://github.com/nitklug/nitklug.github.com/

@@ -13,3 +13,9 @@ h2. nitk surathkal
 (h-menu){% include main_menu.textile %}
 
 p(notice).  Slides and notes from the bash talk can be found "here":/talks/bash.html
+
+<ul class="xoxo news" title="Recent activity">
+{% for post in site.posts limit:5 %}
+  <li><span class="date">{{ post.date | date_to_string }}</span> -- "{{ post.title }}":{{ post.url }}</li>
+{% endfor %}
+</ul>

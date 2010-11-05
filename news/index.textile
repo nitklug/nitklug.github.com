@@ -1,0 +1,12 @@
+---
+title: news
+layout: default
+---
+
+h1. news
+
+<ul class="xoxo news">
+{% for post in site.posts %}
+  <li><span class="date">{{ post.date | date_to_string }}</span> -- "{{ post.title }}":{{ post.url }}</li>
+{% endfor %}
+</ul>

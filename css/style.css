@@ -11,12 +11,31 @@ h1, h2, h3 {
     font-weight: normal
 }
 
-a { color: #2A76A8; text-decoration: none }
+#post {
+    text-align: left;
+}
 
-.h-menu { padding:0 }
+#post .summary {
+    font-size: 80%;
+    color:#444;
+    text-align:center;
+}
+
+.date {
+    font-family: monospace, courier;
+}
+
+a {
+    color: #2A76A8;
+    text-decoration: none
+}
+
+.h-menu, .news {
+    padding:0;
+    list-style:none;
+}
 
 .h-menu li {
-    list-style:none;
     display: inline;
 }
 
