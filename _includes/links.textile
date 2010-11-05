@@ -1,0 +1,9 @@
+
+[home]/
+[news]/news
+[wiki]/wiki
+[distros]/distros
+[arch]/arch/pkg
+[list]http://groups.google.com/group/nitklug
+[logs]/logs
+[irc]irc://irc.freenode.net/lug-nitk

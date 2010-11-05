@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
+
+h1. {{page.title}}
 
 <div id="post">
   <p class="summary">
@@ -11,5 +12,10 @@ layout: default
     {% if page.author %}
         by <span class="author">{{ page.author }}</span>{% endif %}
     </p>
+
+    {% include post_menu.textile %}
+
+    <div class="content">
     {{content}}
+    </div>
 </div>

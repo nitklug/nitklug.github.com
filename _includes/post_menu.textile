@@ -1,0 +1,5 @@
+{% include links.textile %}
+(h-menu)* "home":home
+* "archive":news
+* "discuss":list
+* "permalink":{{ site.baseurl }}{{ page.url }}

@@ -11,14 +11,13 @@ h1, h2, h3 {
     font-weight: normal
 }
 
-#post {
+#post .content {
     text-align: left;
 }
 
 #post .summary {
     font-size: 80%;
     color:#444;
-    text-align:center;
 }
 
 .date {

@@ -10,7 +10,7 @@ h1. linux user group
 
 h2. nitk surathkal
 
-(h-menu){% include main_menu.textile %}
+{% include main_menu.textile %}
 
 p(notice).  Slides and notes from the bash talk can be found "here":/talks/bash.html
 
