@@ -1,2 +1,2 @@
 permalink: /news/:year/:month/:title.html
-
+baseurl: http://nitklug.github.com
