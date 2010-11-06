@@ -11,16 +11,12 @@
 ENV['jekyll-bin']  ||= '/var/lib/gems/1.8/bin/jekyll'
 ENV['jekyll-opts'] ||= ''
 ENV['destination'] ||= '..'
-ENV['baseurl']     ||= 'http://lug.nitk.ac.in'
 
 desc "Run the site through jekyll"
 task :jekyll do
-    conf = nil
-    open('_config.yml') { |f| conf = f.read }
-    open('_config.yml', 'w') do |f|
-        f.write conf.gsub /baseurl.*$/, "baseurl: #{ENV['baseurl']}"
-    end
+    sh "git checkout local-config:_config.yml"
     sh "#{ENV['jekyll-bin']} #{ENV['destination']} #{ENV['jekyll-opts']}"
+    sh "git checkout _config.yml"
 end
 
 desc "deploy to github"
