@@ -1,8 +1,22 @@
 h1. introduction
 
-these files power the nitk lug website ( http://lug.nitk.ac.in and http://nitklug.github.com )
-if you wish to add to or maintain it, ask to become a collaborator at the group's mailing list
-( http://groups.google.co.uk/group/nitklug ) or irc channel ( irc://irc.freenode.net/lug-nitk )
+These files power the nitk-lug website ("http://lug.nitk.ac.in":http://lug.nitk.ac.in and it mirror "http://nitklug.github.com":http://nitklug.github.com) if you wish to add to or maintain it, ask to become a collaborator at the group's "mailing list":http://groups.google.com/group/nitklug or "irc channel":irc://irc.freenode.net/lug-nitk (#lug-nitk on irc.freenode.net)
 
 notes: some of the links may be broken on the github mirror, those are only relevent to the
        intranet site.
+
+h1. writing a blog post
+
+Clone the repository and run `rake post[title-of-the-post]' to start editing. A post should be of the following format:
+<pre>
+---
+layout: post
+title: Full title of the post
+author: yournickname
+---
+content of the post
+....
+....
+</pre>
+
+Save the file and commit the changes and run `rake publish' to publish the post.
