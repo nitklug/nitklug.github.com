@@ -14,7 +14,7 @@ ENV['destination'] ||= '..'
 
 desc "Run the site through jekyll"
 task :jekyll do
-    sh "git checkout local-config:_config.yml"
+    sh "git show local-config:_config.yml > _config.yml"
     sh "#{ENV['jekyll-bin']} #{ENV['destination']} #{ENV['jekyll-opts']}"
     sh "git checkout _config.yml"
 end
