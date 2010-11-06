@@ -5,7 +5,7 @@ layout: default
 
 h1. bash scripting
 
-(h-menu)* "slides":/slides/html/bash.html
+(h-menu)* "slides":/slides/bash.html
 * "links":#links
 * "notes":#notes
 
