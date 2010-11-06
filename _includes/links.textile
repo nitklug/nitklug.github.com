@@ -7,4 +7,5 @@
 [list]http://groups.google.com/group/nitklug
 [logs]/logs
 [irc]irc://irc.freenode.net/lug-nitk
+{% comment %} urls/emails of authors {% endcomment %}
 [shashi]mailto:connect2shashi@gmail.com

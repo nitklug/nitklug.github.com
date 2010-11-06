@@ -8,6 +8,8 @@
 #       new post for you to edit
 #
 
+require 'yaml'
+
 ENV['jekyll-bin']  ||= '/var/lib/gems/1.8/bin/jekyll'
 ENV['jekyll-opts'] ||= ''
 ENV['destination'] ||= '..'
@@ -41,6 +43,22 @@ task :post, :slug, :editor do |t, args|
     editor = args['editor'] || ENV['EDITOR'] || `git config core.editor` || 'vi'
     editor.strip!
     date = Time.now.strftime('%Y-%m-%d')
-    puts "#{editor} _posts/#{date}-#{args['slug']}.textile"
-    sh "#{editor} _posts/#{date}-#{args['slug']}.textile"
+    file = "_posts/#{date}-#{args['slug']}.textile"
+    sh "#{editor} #{file}"
+    authornick = nil
+    open(file) { |f| authornick = YAML::load(f.read)['author'] }
+    if authornick then
+        links = nil
+        linksfile = '_includes/links.textile'
+        open(linksfile) { |f| links = f.read }
+        links = links.grep /\[#{authornick}\]/
+        if links.size == 0 then
+            email = `git config user.email`.strip
+            print "Url/email for #{authornick} (hit return to use '#{email}'): "
+            url = STDIN.gets.strip
+            url = "mailto:#{email}" if email.include? '@'
+            link = "[#{authornick}]#{url.strip}"
+            open(linksfile, 'a') { |f| f.write "\n#{link}" }
+        end
+    end
 end
