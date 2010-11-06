@@ -1,3 +1,3 @@
 permalink: /news/:year/:month/:title.html
 exclude: [ slides ]
-baseurl: http://nitklug.github.com
+baseurl: http://lug.nitk.ac.in
